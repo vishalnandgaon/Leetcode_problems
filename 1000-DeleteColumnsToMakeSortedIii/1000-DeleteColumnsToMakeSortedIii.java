@@ -15,7 +15,6 @@ class Solution {
         for (int val : dp) max = Math.max(max, val);
         return n - max;
     }
-
     private boolean isValid(String[] strs, int j, int i) {
         for (String s : strs) {
             if (s.charAt(j) > s.charAt(i)) return false;
