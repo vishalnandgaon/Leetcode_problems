@@ -19,7 +19,6 @@ class Solution {
         boolean ans=solve(root,root);
         return ans;
     }
-
     public boolean solve(TreeNode l,TreeNode r){
         if(l==null && r==null){
             return true;
