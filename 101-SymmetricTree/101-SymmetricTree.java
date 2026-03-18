@@ -26,6 +26,7 @@ class Solution {
         if(l==null || r==null){
             return false;
         }
+        
         if(l.val !=r.val){
             return false;
         }
