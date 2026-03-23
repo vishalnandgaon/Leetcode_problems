@@ -30,7 +30,6 @@ class Solution {
             if (x == i) sum = summ;
             else if (sum != summ) return false;
         }
-
         // columns
         for (int x = j; x < j + side; x++) {
             int summ = 0;
